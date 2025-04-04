@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooling Glass - Stay Cool and Protected</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1f8ff;
+            color: #333;
+        }
+
+        header {
+            background: #0099cc;
+            padding: 40px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: #006bb3;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        .container {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            color: #0099cc;
+            margin-top: 15px;
+            font-size: 22px;
+        }
+
+        .product-card p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .buy-btn {
+            display: block;
+            padding: 12px 24px;
+            background: #0099cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .buy-btn:hover {
+            background: #006bb3;
+        }
+
+        .about, .contact {
+            text-align: center;
+            padding: 60px 20px;
+            background: #e6f7ff;
+        }
+
+        .about h2, .contact h2 {
+            font-size: 32px;
+            color: #0099cc;
+            margin-bottom: 20px;
+        }
+
+        .about p, .contact p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>Cooling Glass - Stay Cool and Protected</header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Cooling Glass! We provide cutting-edge eyewear designed to protect your eyes from the harmful rays of the sun while keeping you cool and stylish. Discover our premium collection of cooling glasses that combine comfort, innovation, and style.</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2>Our Collection</h2>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.6flGnQBHmPJ7uLzLH9SoLgHaHa?rs=1&pid=ImgDetMain" alt="Sporty Glasses">
+                <h3>Sporty Glasses</h3>
+                <p>Designed for athletes and outdoor enthusiasts, these sporty glasses offer superior UV protection and comfort.</p>
+                <p>Price: ₹1,499</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.rMmvDtD97yF_Q_dyi2wlpgHaFW?rs=1&pid=ImgDetMain" alt="Classic Glasses">
+                <h3>Classic Glasses</h3>
+                <p>A timeless design that suits any style, providing premium UV protection and a comfortable fit.</p>
+                <p>Price: ₹1,999</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://th.bing.com/th/id/OIP.zS41xGhIC-cnt9G_KX2ZnAHaHa?rs=1&pid=ImgDetMain" alt="Luxury Glasses">
+                <h3>Luxury Glasses</h3>
+                <p>For those who seek the best, our luxury glasses offer the ultimate in style, comfort, and UV protection.</p>
+                <p>Price: ₹3,499</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@coolingglass.com</p>
+        <p>Phone: +91 9876543210</p>
+    </div>
+
+</body>
+</html>
